@@ -10,11 +10,12 @@
         * Dos nuevos componentes en la carpeta _Pug_:  
          -- *_cabeceraUsuarioAutenticacion*  
          -- *_informacionUsuarioAutenticacion*
+        * Un nuevo modulo en la carpeta _Sass_: *_barraUsuarioAutenticacionDefault*
     * Pug:
         
         * Componente: *_contenedorUsuarioAutenticacion*
     * Sass:
-        * Modulo: *_contenedorUsuarioAutenticacion*
+        * Modulo: *_barraUsuarioNoAuth*
 
 
 

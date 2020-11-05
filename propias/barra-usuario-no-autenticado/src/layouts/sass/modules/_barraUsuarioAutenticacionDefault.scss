@@ -1,4 +1,4 @@
-@import "../../layouts/sass/config/mixins";
+@import "../config/mixins";
 
 .contenedorBarraIconos{
     background-color: burlywood;
@@ -62,19 +62,19 @@
 
 
 // background-color: darkviolet;
-@mixin flexItem ($backgroundColor: white, $height: 100%, $width: 40%){
-    background: $backgroundColor;
-    height:$height;
-    width: $width;
-}
+// @mixin flexItem ($backgroundColor: white, $height: 100%, $width: 40%){
+//     background: $backgroundColor;
+//     height:$height;
+//     width: $width;
+// }
 
-@mixin flexFlow ($justify: flex-start, $align: flex-start, $direction: row,$display: flex){
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction;
-    display: $display;
+// @mixin flexFlow ($justify: flex-start, $align: flex-start, $direction: row,$display: flex){
+//     justify-content: $justify;
+//     align-items: $align;
+//     flex-direction: $direction;
+//     display: $display;
 
-}
+// }
 
 // @mixin backgroundImage($path: black){
 //     background: url($path);

@@ -1,0 +1,24 @@
+include ../_caracteristicasPanel
+
+block blockGeneralProductoExpandido
+    .contenedorProductoEx
+    .fotoProductoEx    
+    .detallesProductoEx
+        .textoDetallesPr
+            block blockTextoDetalles
+                .tituloDetalles Título
+                .descripcionDetalles Descripción...QUE TENGO SUEÑO TÍO! >=´c
+        .caracteristicasDetallesPR
+            .bloqueDetallesTallas
+                block blockMixinTallas
+                    +itemTallasMixin(1, 10)
+                    +itemTallasMixin(2, 19)
+                    +itemTallasMixin(3, 22)
+            .bloqueDetallesColores
+                .cuadradoItemColores
+                    block blockMixinColores
+                    +itemColoresMixin(1)
+                    +itemColoresMixin(2)
+                    +itemColoresMixin(3)
+                    +itemColoresMixin(4)
+        block blockAnadirDetalles 
